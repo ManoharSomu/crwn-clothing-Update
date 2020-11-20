@@ -2,7 +2,7 @@ import React from 'react';
 
 import './checkout-item.styles.scss';
 
-const checkoutItem = ({cartItem : {name, imageUrl, price, quantity}}) => (
+const CheckoutItem = ({cartItem : {name, imageUrl, price, quantity}}) => (
     <div className='checkout-item'>
         <div className='image-container'>
             <img src={imageUrl} alt='item' />
@@ -14,4 +14,4 @@ const checkoutItem = ({cartItem : {name, imageUrl, price, quantity}}) => (
     </div>
 )
 
-export default checkoutItem;
+export default CheckoutItem;
