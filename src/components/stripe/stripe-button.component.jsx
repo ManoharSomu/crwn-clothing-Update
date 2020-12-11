@@ -15,8 +15,8 @@ const StripeCheckoutButton =({price}) => {
             label = 'pay Now'
             name = 'CRWN CLOTHING LTD.'
             billingaddress
-            shippingaddress
-           //image = '%PUBLIC_URL%/favicon.ico'
+            shippingaddres
+            image = 'https://sendeyo.com/up/d/f3eb2117da'
             description = {`Your total is $${price}`}
             amount = {priceForStripe}
             panellabel = 'Pay Now'
